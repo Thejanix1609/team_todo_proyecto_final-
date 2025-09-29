@@ -1,4 +1,4 @@
-#Proyecto Final – Team To-Do
+Proyecto Final – Team To-Do
 
 Este es un aplicativo web de gestión de tareas desarrollado en React
 El objetivo es simular un sistema colaborativo donde dos usuarios que en este caso son Usuario A y Usuario B pueden iniciar sesión, crear, buscar y administrar tareas.
