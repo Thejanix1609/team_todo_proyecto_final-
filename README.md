@@ -1,16 +1,22 @@
-# React + Vite
+#Proyecto Final – Team To-Do
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un aplicativo web de gestión de tareas desarrollado en React
+El objetivo es simular un sistema colaborativo donde dos usuarios que en este caso son Usuario A y Usuario B pueden iniciar sesión, crear, buscar y administrar tareas.
 
-Currently, two official plugins are available:
+ **Funcionalidades principales del aplicativo**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Autenticación simulada Login con Usuario A o Usuario B. Logout con persistencia en localStorage.  
+Uso de React Context para manejar sesión global.  
 
-## React Compiler
+  **Gestión de Tareas**
+  - Agregar nuevas tareas.   
+  - Completar o desmarcar tareas.  
+  - Eliminar tareas.  
+  - Buscar por texto o autor.  
+  - Filtrar tareas completadas/pendientes.  
+  - Todo se guarda en localStorage.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ Estilos con Tailwind CSSjunto con una interfaz moderna y simple y junto a notificaciones con React Toastify.  
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Las tecnologías utilizadas fueron con React con Vite y React Router DOM para navegación y rutas privadas, tambien junto a React Toastify notificaciones, Tailwind CSS estilos
+localStorage persistencia de tareas y sesión
